@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.main_body {
+	width: 100%;
+	min-height: calc(100vh);
+}
+.certification_section {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	padding-top: 80px;
+	display: flex;
+	align-items: flex-start;
+	@media(max-width:960px){
+		flex-direction: column;
+	}
+	.left_side {
+		width: 65%;
+		background-color: #dcdcdc;
+		padding: 30px;
+		@media(max-width:960px){
+		width: 100%;
+	}
+		img {
+			width: 100%;
+		}
+		.info {
+			margin-top: 15px;
+			p {
+				font-size: 0.9rem;
+				@media(max-width:960px){
+		font-size: 0.7rem;
+	}
+			}
+		}
+	}
+	.right_side {
+		width: 35%;
+		padding: 30px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: space-between;
+		@media(max-width:960px){
+		width: 100%;
+	}
+		.name {
+			width: 100%;
+			p {
+				font-size: 0.9rem;
+				font-weight: 600;
+				color: #db8696;
+			}
+			h3 {
+				font-size: 1.5rem;
+				margin-top: 5px;
+			}
+		}
+		.new_section {
+			width: 100%;
+			margin-top: 50px;
+			.title {
+				p {
+					font-size: 1.3rem;
+					font-weight: 900;
+					text-transform: uppercase;
+					color: #b52093;
+				}
+			}
+			.features_section {
+				margin-top: 15px;
+				.item {
+					width: 100%;
+					height: 100px;
+					background-color: #dcdcdc;
+					display: flex;
+					align-items: center;
+					margin-bottom: 8px;
+					img {
+						width: 100px;
+						height: 100%;
+					}
+					p {
+						padding: 10px;
+						font-size: 0.9rem;
+						font-weight: 600;
+					}
+				}
+			}
+		}
+		.button_section {
+			width: 100%;
+			margin-top: 30px;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			button {
+				border: none;
+				outline: none;
+				width: 180px;
+				height: 40px;
+				border: 2px solid #b52093;
+				color: #b52093;
+				font-weight: 600;
+				cursor: pointer;
+				border-radius: 5px;
+				&:hover {
+					background-color: #b52093;
+					color: #dcdcdc;
+				}
+			}
+		}
+	}
+}

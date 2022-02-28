@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.main_body {
+  width: 100%;
+  min-height: calc(100vh);
+}
+
+.certification_section {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  padding-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media (max-width: 960px) {
+  .certification_section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.certification_section .left_side {
+  width: 65%;
+  background-color: #dcdcdc;
+  padding: 30px;
+}
+
+@media (max-width: 960px) {
+  .certification_section .left_side {
+    width: 100%;
+  }
+}
+
+.certification_section .left_side img {
+  width: 100%;
+}
+
+.certification_section .left_side .info {
+  margin-top: 15px;
+}
+
+.certification_section .left_side .info p {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 960px) {
+  .certification_section .left_side .info p {
+    font-size: 0.7rem;
+  }
+}
+
+.certification_section .right_side {
+  width: 35%;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 960px) {
+  .certification_section .right_side {
+    width: 100%;
+  }
+}
+
+.certification_section .right_side .name {
+  width: 100%;
+}
+
+.certification_section .right_side .name p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #db8696;
+}
+
+.certification_section .right_side .name h3 {
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+
+.certification_section .right_side .new_section {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.certification_section .right_side .new_section .title p {
+  font-size: 1.3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #b52093;
+}
+
+.certification_section .right_side .new_section .features_section {
+  margin-top: 15px;
+}
+
+.certification_section .right_side .new_section .features_section .item {
+  width: 100%;
+  height: 100px;
+  background-color: #dcdcdc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 8px;
+}
+
+.certification_section .right_side .new_section .features_section .item img {
+  width: 100px;
+  height: 100%;
+}
+
+.certification_section .right_side .new_section .features_section .item p {
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.certification_section .right_side .button_section {
+  width: 100%;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.certification_section .right_side .button_section button {
+  border: none;
+  outline: none;
+  width: 180px;
+  height: 40px;
+  border: 2px solid #b52093;
+  color: #b52093;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.certification_section .right_side .button_section button:hover {
+  background-color: #b52093;
+  color: #dcdcdc;
+}
+/*# sourceMappingURL=style.css.map */
